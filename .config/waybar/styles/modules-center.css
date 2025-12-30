@@ -1,0 +1,87 @@
+/*
+temperature
+*/
+
+#custom-left_arrow_temperature {
+	color: @TEMP
+}
+#temperature {
+	padding: 0 5px 0;
+	background-color: @TEMP;
+}
+
+/*
+battery
+*/
+
+#custom-left_arrow_battery {
+	color: @BATT;
+	background-color: @TEMP;
+}
+#battery {
+	padding: 0 5px 0;
+	background-color: @BATT;
+}
+
+
+/*
+distro logo
+*/
+
+#custom-left_arrow_inverse_distro {
+	color: @BATT;
+}
+#custom-left_arrow_distro,
+#custom-right_arrow_distro {
+	color: @FG;
+}
+#custom-right_arrow_inverse_distro {
+	color: @CPU;
+}
+#custom-distro {
+	padding: 0 8px 0;
+	color: @BG;
+	background-color: @FG;
+}
+
+/*
+cpu
+*/
+
+#custom-right_arrow_cpu {
+	color: @CPU;
+	background-color: @MEM;
+}
+#cpu {
+	padding: 0 5px 0;
+	background-color: @CPU;
+}
+
+/*
+memory
+*/
+
+#custom-right_arrow_memory {
+	color: @pink;
+}
+#memory {
+	padding: 0 5px 0;
+	background-color: @pink;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

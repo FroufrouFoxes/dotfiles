@@ -1,0 +1,24 @@
+{
+	"battery": {
+		"interval": 30,
+		"states": {
+			"critical": 15
+		},
+		"format": "{icon} {capacity}%",
+		"format-time": "{H}h {m}m",
+		//order is low to high
+		"format-icons": [
+			"󰂎", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"
+		],
+		"format-charging": "󰂄 {capacity}%", //not working ?
+
+		"tooltip": true,
+		"tooltip-format": "time till dead: {time}",
+		"tooltip-format-chargin": "time till charged: {time}",
+
+		"events": {
+			"on-discharging-critial": "notify-send 'battery critical (10%) -u critical -i 'battery-010' -r 1525",
+			"on-charging-100": "notify-send 'battery full (100%)' -i 'batter-100-charged'"	
+		}
+	} 
+}

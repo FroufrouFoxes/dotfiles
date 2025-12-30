@@ -1,0 +1,72 @@
+/*
+user
+*/
+
+#custom-right_arrow_inverse_user {
+	padding-left: 12px;
+	color: @USER;
+}
+#custom-right_arrow_user {
+	color: @USER;
+	padding-right: 12px;
+}
+#user {
+	padding: 0 5px 0;
+	background-color: @USER;
+}
+
+/*
+workspaces
+*/
+
+#custom-left_arrow_workspace {
+	color: @WSPACE;
+}
+#custom-right_arrow_workspace {
+	color: @WSPACE;
+}
+#workspaces {
+	padding: 0 5px 0;
+	background-color: @WSPACE;
+}
+#workspaces button.active label,
+#workspaces button.focused label {
+	color: @FG;
+}
+
+/*
+backlight
+*/
+
+#backlight {
+	padding: 0 5px 0;
+	background-color: @dark_pink;
+}
+
+#backlight-slider {
+	padding: 0 5px 0;
+	background-color: @pink;
+}
+
+#backlight-slider slider {
+	min-height: 0px;
+	min-width: 0px;
+	opacity: 0;
+	background-image: none;
+	border: none;
+	box-shadow: none;
+	background: none;
+}
+
+#backlight-slider trough {
+	min-height: 10px;
+	min-width: 80px;
+	border-radius: 5px;
+	background: @black;
+}
+
+#backlight-slider highlight {
+	min-width: 10px;
+	border-radius: 5px;
+	background: @light_cyan;
+}

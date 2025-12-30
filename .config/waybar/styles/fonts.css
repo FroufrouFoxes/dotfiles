@@ -1,0 +1,42 @@
+* {
+	font-family: "JuliaMonoForced Nerd Font Mono";
+	font-weight: bold;
+	font-size: 18px;
+}
+
+#custom-distro {
+	font-size: 22px;
+}
+
+/*mod l*/
+#custom-right_arrow_inverse_user,
+#custom-right_arrow_user,
+
+#custom-left_arrow_workspace,
+#custom-right_arrow_workspace,
+
+/*mod c*/
+#custom-left_arrow_temperature,
+
+#custom-left_arrow_battery,
+
+#custom-left_arrow_distro,
+#custom-left_arrow_inverse_distro,
+#custom-right_arrow_distro,
+#custom-right_arrow_inverse_distro,
+
+#custom-right_arrow_cpu,
+
+#custom-right_arrow_memory,
+
+/*mod r*/
+#custom-left_arrow_cava,
+
+#custom-left_arrow_volume,
+
+#custom-left_arrow_audio,
+
+#custom-left_arrow_clock,
+#custom-left_arrow_inverse_clock {
+	font-size: 22px;
+}

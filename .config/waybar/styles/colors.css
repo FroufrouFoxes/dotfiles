@@ -1,0 +1,34 @@
+/*
+	define color names
+*/
+
+@define-color dark_red		#880D1E;
+@define-color red			#DD2D4A;
+
+@define-color dark_pink		#F26A8D;
+@define-color pink			#F49CBB;
+
+@define-color light_cyan	#CBEEF3;
+@define-color black			#111111;
+
+/*
+	define color purpose
+*/
+
+@define-color FG			@light_cyan;
+@define-color BG			@black;
+
+@define-color USER			@dark_red;
+@define-color CLOCK			@dark_red;
+
+@define-color WSPACE		@red;
+@define-color BATT			@red;
+@define-color AUDIO			@red;
+
+@define-color TEMP			@dark_pink;
+@define-color CPU			@dark_pink;
+@define-color VOL			@dark_pink;
+
+@define-color MEM			@pink;
+@define-color CAVA			@pink;
+

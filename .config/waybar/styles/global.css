@@ -1,0 +1,28 @@
+* {
+	color: @FG;
+}
+
+.module {
+	margin: 5px 0 2px;
+}
+
+/*
+button
+*/
+
+button {
+	padding: 0 8px 0;
+}
+
+/*
+tooltip
+*/
+
+tooltip {
+	background-color: @black;
+	color: @light-cyan;
+}
+
+tooltip > box {
+	padding: 0 5px 0;
+}

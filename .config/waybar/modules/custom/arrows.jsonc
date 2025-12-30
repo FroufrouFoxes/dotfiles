@@ -1,0 +1,117 @@
+/*
+template:
+
+	"custom/left_arrow": {
+		"format": "",
+		"tooltip": false
+	},
+	"custom/right_arrow": {
+		"format": "",
+		"tooltip": false
+	},
+*/
+
+{
+
+/*
+module left
+*/
+
+// user arrows
+	"custom/right_arrow_user": {
+		"format": "",
+		"tooltip": false
+	},
+	"custom/right_arrow_inverse_user": {
+		"format": "",
+		"tooltip": false
+	},
+
+// workspace arrows
+	"custom/left_arrow_workspace": {
+		"format": "",
+		"tooltip": false
+	},
+	"custom/right_arrow_workspace": {
+		"format": "",
+		"tooltip": false
+	},
+
+/*
+module center
+*/
+
+// temperature arrows
+	"custom/left_arrow_temperature": {
+		"format": "",
+		"tooltip": false
+	},
+
+// battery arrows
+	"custom/left_arrow_battery": {
+		"format": "",
+		"tooltip": false
+	},
+
+// distro arrows
+	"custom/left_arrow_distro": {
+		"format": "",
+		"tooltip": false
+	},
+	"custom/right_arrow_distro": {
+		"format": "",
+		"tooltip": false
+	},
+	"custom/left_arrow_inverse_distro": {
+		"format": "",
+		"tooltip": false
+	},
+	"custom/right_arrow_inverse_distro": {
+		"format": "",
+		"tooltip": false
+	},
+
+// cpu arrows
+	"custom/right_arrow_cpu": {
+		"format": "",
+		"tooltip": false
+	},
+
+// memory arrows
+	"custom/right_arrow_memory": {
+		"format": "",
+		"tooltip": false
+	},
+
+/*
+module right
+*/
+
+// cava arrows
+	"custom/left_arrow_cava": {
+		"format": "",
+		"tooltip": false
+	},
+
+// volume slider arrows
+	"custom/left_arrow_volume": {
+		"format": "",
+		"tooltip": false
+	},
+	
+// audio arrows
+	"custom/left_arrow_audio": {
+		"format": "",
+		"tooltip": false
+	},
+
+// clock arrows
+	"custom/left_arrow_clock": {
+		"format": "",
+		"tooltip": false
+	},
+	"custom/left_arrow_inverse_clock": {
+		"format": "",
+		"tooltip": false
+	}
+}

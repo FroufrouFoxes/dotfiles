@@ -1,0 +1,88 @@
+{
+
+	"include": [
+		"~/.config/waybar/modules/user.jsonc",
+		"~/.config/waybar/modules/temperature.jsonc",
+		"~/.config/waybar/modules/battery.jsonc",
+		"~/.config/waybar/modules/cpu.jsonc",
+		"~/.config/waybar/modules/memory.jsonc",
+		"~/.config/waybar/modules/cava.jsonc",
+		"~/.config/waybar/modules/pulseaudio.jsonc",
+		"~/.config/waybar/modules/clock.jsonc",
+		"~/.config/waybar/modules/backlight.jsonc",
+		
+		"~/.config/waybar/modules/hyprland/workspaces.jsonc",
+		
+		"~/.config/waybar/modules/custom/arrows.jsonc",
+		"~/.config/waybar/modules/custom/distro.jsonc"
+	],
+
+/*
+	module layout
+*/
+
+	"modules-left": [
+//user
+		"custom/right_arrow_inverse_user",
+		"user",
+		"custom/right_arrow_user",
+//workspace
+		"custom/left_arrow_workspace",
+		"hyprland/workspaces",
+		"custom/right_arrow_workspace",
+
+		"backlight",
+		"backlight/slider"
+	],
+	
+	"modules-center": [
+//temperature
+		"custom/left_arrow_temperature",
+		"temperature",
+//battery
+		"custom/left_arrow_battery",
+		"battery",
+//distro icon
+		"custom/left_arrow_inverse_distro",
+		"custom/left_arrow_distro",
+		"custom/distro",
+		"custom/right_arrow_distro",
+		"custom/right_arrow_inverse_distro",
+//cpu
+		"cpu",
+		"custom/right_arrow_cpu",
+//memory
+		"memory",
+		"custom/right_arrow_memory"
+	],
+	
+	"modules-right": [
+//cava
+		"custom/left_arrow_cava",
+		"cava",
+//volume slider
+		"custom/left_arrow_volume",
+		"pulseaudio/slider",
+//audio
+		"custom/left_arrow_audio",
+		"pulseaudio",
+//clock
+		"custom/left_arrow_clock",
+		"clock",
+		"custom/left_arrow_inverse_clock"
+
+	],
+
+/*
+	bar config
+*/
+	
+	"layer": "top",
+	"position": "top",
+	"height": 0,
+	"width": 0,
+	"margin": 0,
+	"spacing": 0,
+	"mode": "dock",
+	"reload_style_on_change": true
+}

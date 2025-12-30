@@ -1,0 +1,11 @@
+* {
+	all: initial;
+}
+
+@import "styles/colors.css";
+@import "styles/fonts.css";
+@import "styles/global.css";
+
+@import "styles/modules-left.css";
+@import "styles/modules-center.css";
+@import "styles/modules-right.css";

@@ -1,0 +1,60 @@
+# ~/.config/yazi.toml
+
+[mgr]
+ratio = [1,4,2]
+
+# sort
+#sort_by =
+#sort_sensitive = 
+#sort_reverse  = 
+#sort_dir_first = 
+#sort_translit = 
+
+# show
+linemode = "size"
+show_hidden = false
+show_symlin = true
+
+#scrolloff = 
+#moouse_events = 
+#title_format = 
+
+[preview]
+wrap = "yes" # wraps text in previewer
+#tab_size = 
+#max_width = 
+#max_height = 
+#cache_dir = 
+
+# image
+#image_delay = 
+#image_filter = "nearest" 
+#image_quality = 
+
+#ueberzug_scale/ueberzug_offset
+
+[opener]
+play = [
+	{ run = 'vlc "@$"', orphan = true },
+]
+edit = [
+	{ run = 'nvim "$@"', block = true, desc = "Open with NeoVim" },
+	{ run = 'micro "$@"', block = true, desc = "Open with Micro" },
+]
+
+[open]
+
+[tasks]
+# micro
+#micro_workers = 
+#micro_workers = 
+
+#bizarre_retry = 
+#suppress_preload = 
+#image_alloc = 
+#image_bound = 
+
+[plugin]
+
+[input]
+#cursor_blink = 

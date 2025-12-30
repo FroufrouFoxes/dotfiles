@@ -1,0 +1,8 @@
+{
+	"user": {
+		"format": "{user} {work_H}:{work_M}",
+		"interval": 60,
+		"open-on-click": true,
+		"open-path": "home/julia"
+	}
+}

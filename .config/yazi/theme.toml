@@ -1,0 +1,67 @@
+# ~/.config/yazi/theme.toml
+
+# https://yazi-rs.github.io/docs/configuration/theme
+# https://github.com/ficd0/ashen/blob/main/ashen.yazi/flavor.toml
+# https://redketchup.io/color-picker
+
+[flavor]
+#dark =
+#light = 
+
+[mgr]
+# current working directory
+cwd = { fg = "#D32F2F", bold = true }
+
+# hover
+hovered = { reversed = true, bold = true }
+preview_hovered = { underline = true }
+
+# find
+#find_keyword = 
+#find_position = 
+
+# marker
+#marker_copied = 
+#marker_cut = 
+#marker_marked = 
+#marker_selected =
+
+# cound 
+#cound_copied = 
+#cound_cut = 
+#count_selected = 
+
+# border
+#border_symbol = 
+border_style = { fg = "#FFFFFF", bg = "reset" }
+
+#syntect_theme = 
+
+[tabs]
+
+[mode]
+
+[status]
+
+[which]
+
+[confirm]
+
+[spot]
+
+[notify]
+
+[pick]
+
+[input]
+
+[cmp]
+
+[tasks]
+
+[help]
+
+[filetype]
+
+[icon]
+

@@ -1,0 +1,8 @@
+{
+	"memory": {
+		"interval": 10,
+		"format": "{used}/{total}",
+		"max-length": 11,
+		"min-length": 11	
+	}
+}
