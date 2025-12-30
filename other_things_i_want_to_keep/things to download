@@ -1,0 +1,51 @@
+7zip
+audacity
+bash
+base-devel ?
+bluez
+bluez-utils
+brightnessctl
+cava
+cheese
+curl ?
+dosfstools ?
+fastfetch
+firefox
+gimp
+git
+grim
+hypridle
+hyprland
+hyprpaper
+hyprpicker
+iwd
+kitty
+linux-firmware ?
+mako
+mesa ?
+neovim
+networkmanager
+obsidian
+openssh
+pavucontrol ?
+pipewire ?
+playerctl
+pokeget
+polkit-kde-agent
+rustup
+slurp
+sudo
+thunderbird
+tmux ?
+torbrowser-launcher
+vlc
+waybar
+wofi
+yazi
+
+other:
+yay
+steam
+
+drivers:
+amd-ucode
