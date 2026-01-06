@@ -4,31 +4,92 @@ Linux Distro: Artix
 Wayland Compositer: Hyprland
 Init System: openrc
 
-Terminal Emulator: kitty
-Shell: bash
-Text Editor: neovim
-File Manager: yazi
-Application Launcher: wofi
-Internet Browser: firefox
-Onion Browser: torbrowser-launcher
-Clipboard: wl-clipboard
-Notification Daemon: mako
-Wayland Bar: waybar
-Font: ttf-hack-nerd
+Terminal Emulator: 
+kitty
 
-Calendar/Email Manager: thunderbird
-Authentication Agent: hyprpolkitagent
-File Archiver: 7zip
-Audio Recorder: audacity
-Screen Recorder: obs-studio
-Camera Utility: cheese
-Image Editor: gimp
-Paint: krita
-Notes: obsidian
-Multimedia Player: vlc
+Shell: 
+bash
 
-Other software I use:
-pipewire, xdg-desktop-portal, rustup, pokeget, fontconfig, bluez, bluez-utils, brightnessctl, cava, dosfstools, fastfetch, grim, slurp, hypridle, hyprpicker, openssh
+Text Editor: 
+neovim
 
+File Manager: 
+yazi
+
+Application Launcher: 
+wofi
+
+Internet Browsers: 
+firefox
+librewolf
+qutebrowser
+torbrowser-launcher
+
+Clipboard: 
+wl-clipboard
+
+Notification Daemon: 
+mako
+
+Bar: 
+waybar
+
+Font: 
+ttf-hack-nerd
+
+Calendar/Email Manager: 
+thunderbird
+
+Authentication Agent: 
+hyprpolkitagent
+
+File Archiver/Extractor: 
+7zip
+
+Audio Recorder: 
+audacity
+
+Screen Recorder:
+obs-studio
+
+Camera Utility: 
+cheese
+
+Image Editor: 
+gimp
+
+Paint: 
+krita
+
+Notes: 
+obsidian
+
+Multimedia Player: 
+vlc
+
+Fetch Tool: 
+fsatfetch
+
+Repositories:
 yay
+pacman
+
+Game Manager:
 steam
+
+Hyprland Software:
+hypridle
+hyprpicker
+
+Screenshot Tool:
+grim
+slurp
+
+Bluetooth Utility:
+bluez
+bluez-utils
+
+Unsorted Software:
+pipewire, xdg-desktop-portal, rustup, pokeget, fontconfig, brightnessctl, cava, dosfstools, openssh
+
+Look into ly the display manager
