@@ -92,4 +92,5 @@ bluez-utils
 Unsorted Software:
 pipewire, xdg-desktop-portal, rustup, pokeget, fontconfig, brightnessctl, cava, dosfstools, openssh
 
-Look into ly the display manager
+Look into ly the display manager:
+https://github.com/fairyglade/ly
