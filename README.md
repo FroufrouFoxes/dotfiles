@@ -6,18 +6,23 @@ Init System: openrc
 
 Terminal Emulator: 
 kitty
+(configure)
 
 Shell: 
 bash
+(learn)
 
 Text Editor: 
 neovim
+(basic configure)
 
 File Manager: 
 yazi
+(basic configure)
 
 Application Launcher: 
 wofi
+(configure)
 
 Internet Browsers: 
 firefox
@@ -30,9 +35,11 @@ wl-clipboard
 
 Notification Daemon: 
 mako
+(basic configure)
 
 Bar: 
 waybar
+(configure)
 
 Font: 
 ttf-hack-nerd
@@ -79,6 +86,7 @@ steam
 
 Hyprland Software:
 hypridle
+(configure)
 hyprpicker
 
 Screenshot Tool:
